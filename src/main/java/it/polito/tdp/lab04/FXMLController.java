@@ -137,9 +137,7 @@ public class FXMLController {
         	      		
                        	
         }
-       
-
-    }
+    }   
 
     @FXML
     void doReset(ActionEvent event) {
@@ -148,8 +146,8 @@ public class FXMLController {
     	txtNome.clear();
     	txtCognome.clear();
     	cmbCorsi.getSelectionModel().clearSelection();
- 
     }
+    
     
     @FXML
     void doVerde(ActionEvent event) {
@@ -180,10 +178,9 @@ public class FXMLController {
         assert txtNome != null : "fx:id=\"txtNome\" was not injected: check your FXML file 'Scene.fxml'.";
         assert txtRisultato != null : "fx:id=\"txtRisultato\" was not injected: check your FXML file 'Scene.fxml'.";
         assert txtStudente != null : "fx:id=\"txtStudente\" was not injected: check your FXML file 'Scene.fxml'.";
-        
+    }    
       
 
-    }
 
     public void setModel(Model model) {
         this.model=model;
